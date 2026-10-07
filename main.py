@@ -6,9 +6,9 @@ est_majeur: bool = False
 if age >= 18:
     est_majeur = True
 if est_majeur == True:
-    print(f"Nom: {prenom} a {age} ans, mesure {taille} m et est majeur: {est_majeur}")
+    print(f"Nom: {prenom} a {age} ans, mesure {taille} m et est majeur.")
 else:  
-    print(f"Nom: {prenom} a {age} ans, mesure {taille} m et est mineur: {est_mineur}")
+    print(f"Nom: {prenom} a {age} ans, mesure {taille} m et est mineur.")
 
 notes: list[int] = [12, 8, 15, 19, 6, 14]
 print(len(notes))
@@ -36,5 +36,5 @@ for i in range(input):
     contact.append({"nom": nom, "numero": numero})
 for contact in contact:
     print(f"Nom: {contact['nom']}, Numéro: {contact['numero']}")
-print(f"nbre de contacts: {len(contact) input}")
+print(f"nbre de contacts: {len(contact)}")
 
